@@ -1,0 +1,87 @@
+
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+background-color:#EADAD7;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+
+
+
+.jasba {
+background-color:white;
+border-radius:18px;
+padding:14px 25px;
+width:100%;
+max-width:950px;
+display:flex;
+flex-direction:column;
+text-align:center;
+text-transform:uppercase;
+}
+
+.dress_img {
+  margin:25px;
+  max-width:100%;
+}
+
+.type {
+color:#765242;
+font-weight:900;
+letter-spacing:1px; 
+}
+.fasion {
+color:#78483F;
+font-weight:400;
+letter-spacing:1px;
+font-size:14px;
+line-height:2;
+padding:10px 0;
+border-top:1px solid #F1E6E4;
+list-style:none;
+}
+
+/* .women_dress { */
+/*   border: 1px solid #F1E6E4;  */
+/* } */
+
+.dress_price {
+color:#765242 ;
+font-weight:600;
+font-size:25px;
+display:block;
+}
+
+.buy {
+font-size:25px;
+font-weight:500;
+border:1px solid #A25F53;
+border-radius: 10px;
+color:#765242;
+text-decoration:none;
+display:inline-block;
+padding:7px 35px;
+margin:25px 0;
+transition:background-color 1s  box-shadow 1s transform 1s ease-in;
+
+
+}
+
+.buy:hover,buy:focus{
+  background-color:#EADAD7;
+  box-shadow:0 1em 0.5em -0.4em #DCC1BC;
+  transform:translateY(-3px);
+}
+
+@media (min-height:900px)  {
+  .jasba {
+    flex-direction:row;
+  }   
+}
+
